@@ -1,6 +1,7 @@
 * {box-sizing: border-box;
 
-	
+	font-family: cursive;
+	;
 
 }
 
@@ -11,10 +12,10 @@ h1 {
 
 
 .block {
-	background-color: lightgrey;
+	background-color: #999999;
 	height: 230px;
 	width: 90%;
-	border: .1em solid black;
+	border: .2em solid black;
 	margin: 20px auto;
 	overflow: hidden;
 }
@@ -31,15 +32,15 @@ section {clear: right;
 
 
 
-#chicken {margin: 0;width: 33.33%; border-left: .1em solid black;border-bottom: .1em solid black;
-	float: right; color: pink; text-align: right;
-	background: darkblue; padding: 10px; font-size: large;}
-#beef {margin: 0;width: 33.33%;border-left: .1em solid black;border-bottom: .1em solid black;
-	float: right; color: red; text-align: right;
-	background: orange; padding: 10px; font-size: large;}
-#sushi {margin: 0;width: 33.33%;border-left: .1em solid black;border-bottom: .1em solid black;
-	float:right; color: blue; text-align: right;
-	background:yellowgreen; padding: 10px; font-size: large;}
+#chicken {margin: 0;width: 33.33%; border-left: .2em solid black;border-bottom: .2em solid black;
+	float: right; color: black; text-align: right;
+	background: #d59898; padding: 10px; font-size: large; font-weight: bold;}
+#beef {margin: 0;width: 33.33%;border-left: .2em solid black;border-bottom: .2em solid black;
+	float: right; color: white; text-align: right;
+	background: #c14543; padding: 10px; font-size: large; font-weight: bold;}
+#sushi {margin: 0;width: 33.33%;border-left: .2em solid black;border-bottom: .2em solid black;
+	float:right; color: black; text-align: right;
+	background:#e5d198; padding: 10px; font-size: large; font-weight: bold;}
 
 
 @media (min-width: 1201px) {
